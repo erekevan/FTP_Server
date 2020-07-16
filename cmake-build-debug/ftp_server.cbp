@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ftp_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftp_client">
+				<Option output="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/ftp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ftp_client"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftp_client/fast">
+				<Option output="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/ftp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ftp_client/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftp_server">
+				<Option output="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/ftp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ftp_server"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftp_server/fast">
+				<Option output="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/ftp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ftp_server/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/client.cpp">
+			<Option target="ftp_client"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/client.h">
+			<Option target="ftp_client"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/connection_error.cpp">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/connection_error.h">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/file.cpp">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/file.h">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/file_not_found_error.cpp">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/file_not_found_error.h">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/io.cpp">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/io.h">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/network_io.cpp">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/network_io.h">
+			<Option target="ftp_client"/>
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/server.cpp">
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/server.h">
+			<Option target="ftp_server"/>
+		</Unit>
+		<Unit filename="/Users/erekevan/CLionProjects/ftp_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/CMakeFiles/ftp_client.dir
+/Users/erekevan/CLionProjects/ftp_server/cmake-build-debug/CMakeFiles/ftp_server.dir
